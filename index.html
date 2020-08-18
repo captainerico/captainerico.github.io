@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Project: Recipe book</title>
         <meta charset="utf-8">
@@ -23,19 +23,23 @@
         #source{
             color:rgb(23, 64, 61);
         }
-        #recipe-book{
+        .recipe-book{
             color:rgb(20, 87, 59);
         }
         #contents{
            color:rgb(24, 102, 97);
+        }
+        #table{
+           border:1; 
+           align:center;    
         }
 
         </style>
 </head>
     <body id="recipe-color">
 
-        <h1 id="recipe-book"><em>MUM's Recipe Book</em></h1>
-        <h2 id="recipe-book">Kenyan Beef Samosas</h2>
+        <h1 class="recipe-book"><em>MUM's Recipe Book</em></h1>
+        <h2 class="recipe-book">Kenyan Beef Samosas</h2>
         <h2 id="contents">Contents </h2>
 
     <ol>
@@ -51,7 +55,7 @@
         </ul>
        <h2 id="filling">Recipe#1 Filling </h2>
          <!--table for filling ingredients!-->
-        <table border="1" align="center">
+        <table id="table">
             <thead>
                 <tr>
                     <th id="table">Ingredients</th>
